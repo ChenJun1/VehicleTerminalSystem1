@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.cvnavi.app.ui.activity.Error_AlarmActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Serious_Failure_View"
+                style="@style/alarm_TextView"
+                android:text="严重故障" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Brake_air_pressure_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="制动气压报警" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Hydraulic_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="油压报警" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Low_water_level_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="水位低报警" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Brake_shoe_warning_view"
+                style="@style/alarm_TextView"
+                android:text="制动蹄片报警" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Air_filter_block_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="空滤阻塞报警" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Fuel_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="燃油报警" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Retarder_high_temperature_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="缓速器高温报警" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Warehouse_temperature_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="仓温报警" />
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/Oil_temperature_alarm_view"
+                style="@style/alarm_TextView"
+                android:text="机油温度报警" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

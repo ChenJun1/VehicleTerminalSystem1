@@ -1,0 +1,114 @@
+[
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_dialog_scale_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ebf40f420d888642ad05cd4d1b9708b5e06c6954\\output\\res\\anim\\pickerview_dialog_scale_in.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_x_in.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\error_x_in.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_bow_roate.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\success_bow_roate.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_out.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\modal_out.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\nextact_movein.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\nextact_movein.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\success_mask_layout.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\success_mask_layout.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\nextact_moveout.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\nextact_moveout.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_slide_out_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ebf40f420d888642ad05cd4d1b9708b5e06c6954\\output\\res\\anim\\pickerview_slide_out_bottom.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\error_frame_in.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\error_frame_in.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_slide_in_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ebf40f420d888642ad05cd4d1b9708b5e06c6954\\output\\res\\anim\\pickerview_slide_in_bottom.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pickerview_dialog_scale_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\ebf40f420d888642ad05cd4d1b9708b5e06c6954\\output\\res\\anim\\pickerview_dialog_scale_out.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Administrator\\.android\\build-cache\\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\build\\intermediates\\res\\merged\\debug\\anim\\modal_in.xml",
+        "source": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\app\\src\\main\\res\\anim\\modal_in.xml"
+    }
+]

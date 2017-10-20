@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f0f0f"
+    android:orientation="vertical"
+    tools:context="com.cvnavi.app.ui.activity.EquipmentActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_radiobutton_view"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/bg_registered"
+                    android:drawablePadding="30dp"
+                    android:gravity="center_vertical"
+                    android:onClick="onRegistered"
+                    android:paddingLeft="20dp"
+                    android:text="平台注册"
+                    android:textColor="@drawable/radiobutton_textcolor"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_radiobutton_view"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/bg_positioning"
+                    android:drawablePadding="30dp"
+                    android:gravity="center_vertical"
+                    android:onClick="onPositioning"
+                    android:paddingLeft="20dp"
+                    android:text="定位状态"
+                    android:textColor="@drawable/radiobutton_textcolor"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_radiobutton_view"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/bg_equipment"
+                    android:drawablePadding="30dp"
+                    android:gravity="center_vertical"
+                    android:onClick="onEquipment"
+                    android:paddingLeft="20dp"
+                    android:text="设备参数"
+                    android:textColor="@drawable/radiobutton_textcolor"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_radiobutton_view"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/bg_engineering"
+                    android:drawablePadding="30dp"
+                    android:gravity="center_vertical"
+                    android:onClick="onEngineering"
+                    android:paddingLeft="20dp"
+                    android:text="工程菜单"
+                    android:textColor="@drawable/radiobutton_textcolor"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_radiobutton_view"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/bg_information"
+                    android:drawablePadding="30dp"
+                    android:gravity="center_vertical"
+                    android:onClick="onInformation"
+                    android:paddingLeft="20dp"
+                    android:text="设备信息"
+                    android:textColor="@drawable/radiobutton_textcolor"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_radiobutton_view"
+                    android:button="@null"
+                    android:drawableLeft="@drawable/bg_system"
+                    android:drawablePadding="30dp"
+                    android:gravity="center_vertical"
+                    android:onClick="onSystem"
+                    android:paddingLeft="20dp"
+                    android:text="系统设置"
+                    android:textColor="@drawable/radiobutton_textcolor"
+                    android:textSize="18sp" />
+            </RadioGroup>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

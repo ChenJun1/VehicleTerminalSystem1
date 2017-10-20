@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Administrator\.android\build-cache\3a07f6971941f1701e5ec3d7a0aa0a98fed9854f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\build\intermediates\pre-dexed\debug\classes_32ea810ce657c6a53eae1b4e54b93d0914515261.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\serialportapi\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d111b5c56d8298a6c99e3ac49b3d47e1a2c98c4d">
+        <dex dex="E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\build\intermediates\pre-dexed\debug\classes_50cf27d31d9a8f45ce1dfdce2ca171751a639333.jar" />
+    </item>
+
+</items>

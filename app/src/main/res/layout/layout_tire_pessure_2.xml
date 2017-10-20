@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:myViewXmln="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="15dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="7.5dp"
+    android:paddingTop="15dp"
+    tools:ignore="ResAuto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#171717">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toLeftOf="@+id/image">
+
+            <LinearLayout
+                android:id="@+id/rl_1"
+                style="@style/tire_pessure_layou">
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="35Kpa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"
+                    />
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="50°"/>
+            </LinearLayout>
+
+
+            <com.cvnavi.app.ui.customize.CustomLineView
+                android:id="@+id/line1"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/line_view1"
+                android:layout_toRightOf="@+id/line_view1"
+                myViewXmln:direction_right="true"
+                myViewXmln:direction_top="true"
+                />
+
+            <TextView
+                android:id="@+id/line_view1"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_1"
+                android:layout_marginTop="5dp"
+                android:background="#D3EE1D"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:layout_toLeftOf="@+id/image">
+
+            <LinearLayout
+                android:id="@+id/rl_2"
+                style="@style/tire_pessure_layou">
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="35Kpa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"
+                    />
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="50°"/>
+            </LinearLayout>
+
+
+            <com.cvnavi.app.ui.customize.CustomLineView
+                android:id="@+id/line2"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="75dp"
+                android:layout_toRightOf="@+id/line_view2"
+                myViewXmln:direction_bottom="true"
+                myViewXmln:direction_right="true"
+                />
+
+            <TextView
+                android:id="@+id/line_view2"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_2"
+                android:layout_marginTop="5dp"
+                android:background="#D3EE1D"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_toLeftOf="@+id/image">
+
+            <LinearLayout
+                android:id="@+id/rl_3"
+                style="@style/tire_pessure_layou">
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="35Kpa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"
+                    />
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="50°"/>
+            </LinearLayout>
+
+
+            <com.cvnavi.app.ui.customize.CustomLineView
+                android:id="@+id/line3"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/line_view3"
+                android:layout_toRightOf="@+id/line_view3"
+                myViewXmln:direction_right="true"
+                myViewXmln:direction_top="true"
+                />
+
+            <TextView
+                android:id="@+id/line_view3"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_3"
+                android:layout_marginTop="5dp"
+                android:background="#D3EE1D"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/image">
+
+            <LinearLayout
+                android:id="@+id/rl_4"
+                style="@style/tire_pessure_layou"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="35Kpa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"
+                    />
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="50°"/>
+            </LinearLayout>
+
+
+            <com.cvnavi.app.ui.customize.CustomLineView
+                android:id="@+id/line4"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/line_view4"
+                myViewXmln:direction_left="true"
+                myViewXmln:direction_top="true"
+                />
+
+            <TextView
+                android:id="@+id/line_view4"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_4"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:background="#D3EE1D"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="115dp"
+            android:layout_toRightOf="@+id/image">
+
+            <LinearLayout
+                android:id="@+id/rl_5"
+                style="@style/tire_pessure_layou"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="35Kpa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"
+                    />
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="50°"/>
+            </LinearLayout>
+
+
+            <com.cvnavi.app.ui.customize.CustomLineView
+                android:id="@+id/line5"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_marginTop="75dp"
+                myViewXmln:direction_bottom="true"
+                myViewXmln:direction_left="true"/>
+
+            <TextView
+                android:id="@+id/line_view5"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_5"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:background="#D3EE1D"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:layout_toRightOf="@+id/image">
+
+            <LinearLayout
+                android:id="@+id/rl_6"
+                style="@style/tire_pessure_layou"
+                android:layout_marginLeft="30dp">
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="35Kpa"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#D0D0D0"
+                    />
+
+                <TextView
+                    style="@style/tire_pessure_text"
+                    android:text="50°"/>
+            </LinearLayout>
+
+
+            <com.cvnavi.app.ui.customize.CustomLineView
+                android:id="@+id/line6"
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:layout_alignBottom="@+id/line_view6"
+                myViewXmln:direction_left="true"
+                myViewXmln:direction_top="true"/>
+
+            <TextView
+                android:id="@+id/line_view6"
+                android:layout_width="80dp"
+                android:layout_height="1dp"
+                android:layout_below="@+id/rl_6"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:background="#D3EE1D"/>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:src="@mipmap/car_6"/>
+    </RelativeLayout>
+</RelativeLayout>

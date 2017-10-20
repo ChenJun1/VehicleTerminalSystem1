@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\serialportapi\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\serialportapi\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 16,
+                        "endColumn": 50,
+                        "endOffset": 62
+                    }
+                }
+            }
+        ]
+    }
+]

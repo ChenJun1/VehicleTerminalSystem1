@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#1c1c1c"
+              android:orientation="vertical"
+              android:padding="20dp">
+
+    <TextView
+        android:id="@+id/pop_title_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="提示"
+        android:textColor="@color/colorVehicleParametersText2"
+        android:textSize="@dimen/text_size20"/>
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/pop_content_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="在概述中，我们提到了，
+        从效果图中，我也可以看到它的布局有三个item，中间用横线分开。所以这里布局使用Listview应该更合适，但为了减轻代码难度，我们直接使用TextView和分隔线来"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/pop_form_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:text="来源:中心一"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/pop_date_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="10dp"
+                android:text="2017-1-1 19:00:00"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/text_size18"/>
+
+            <Button
+                android:textSize="@dimen/text_size20"
+                android:id="@+id/pop_determine_bt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:text="确定"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

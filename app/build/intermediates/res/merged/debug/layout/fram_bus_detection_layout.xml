@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f0f0f"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="传感器油量" />
+
+                <TextView
+                    android:id="@+id/sensorOil_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="引擎转速" />
+
+                <TextView
+                    android:id="@+id/engineSpeed_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="瞬时油耗" />
+
+                <TextView
+                    android:id="@+id/oilConsumption_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="发动机扭矩" />
+
+                <TextView
+                    android:id="@+id/engineTorque_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="油门踏板位置" />
+
+                <TextView
+                    android:id="@+id/pedalPosition_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="累计油耗" />
+
+                <TextView
+                    android:id="@+id/allConsumption_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout2"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="计量仪油耗" />
+
+                <TextView
+                    android:id="@+id/meterOilConsumption_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="引擎运行总时长" />
+
+                <TextView
+                    android:id="@+id/totalTime_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="发动机水温" />
+
+                <TextView
+                    android:id="@+id/waterTemperature_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="油温温度" />
+
+                <TextView
+                    android:id="@+id/engineOilTemperature_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="进气温度" />
+
+                <TextView
+                    android:id="@+id/intakeTemperature_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="机油压力" />
+
+                <TextView
+                    android:id="@+id/oilPressure_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="大气压力" />
+
+                <TextView
+                    android:id="@+id/atmosphericPressure_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout2" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

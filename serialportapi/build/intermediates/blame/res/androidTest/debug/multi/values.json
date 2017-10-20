@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\serialportapi\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "E:\\SHIHANGWANGLUO\\SVN\\VehicleTerminalSystem\\serialportapi\\build\\intermediates\\bundles\\debug\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 50,
+                        "endOffset": 101
+                    }
+                }
+            }
+        ]
+    }
+]

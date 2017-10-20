@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?><!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:app="http://schemas.android.com/apk/res-auto"--><!--android:layout_width="match_parent"--><!--android:layout_height="match_parent"--><!--android:orientation="vertical">-->
+
+<android.support.design.widget.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:theme="@style/AppThemes.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:visibility="gone"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@drawable/toolbar_bgtop"
+        android:fitsSystemWindows="true"
+        android:minHeight="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/framelayout_lift_home"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/imagview_lift_home"
+                    android:layout_width="41dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="center"
+                    android:contentDescription="@null"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/toolbar_top_home" />
+            </FrameLayout>
+            <ImageView
+                android:id="@+id/ImageView_lift"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@mipmap/toolbar_signal1_4"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/lift_imagtwo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:contentDescription="@null"
+                android:scaleType="centerInside"
+                android:src="@mipmap/toolbar_signal2_wu"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:id="@+id/toolbar_gps_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/weixing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@null"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/leida" />
+
+                <TextView
+                    android:id="@+id/toolbar_gpstext"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="3dp"
+                    android:visibility="visible"
+                    android:textColor="#ffDEFF0F"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:orientation="horizontal">-->
+
+        <TextView
+            android:id="@+id/tv_local_music"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/top_tabs_1"
+            android:textColor="#ffffff"
+            android:textSize="24sp" />
+        <!--</LinearLayout>-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:gravity="center_vertical"
+            android:visibility="visible">
+
+            <FrameLayout
+                android:id="@+id/framelayout_right"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="10dp"
+                    android:contentDescription="@null"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/toolbar_danger" />
+
+                <TextView
+                    android:id="@+id/toolbar_dangertext"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/crop_oval_true"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:padding="3dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone"
+                    android:textSize="9sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/framelayout"
+                android:layout_width="wrap_content"
+                android:visibility="gone"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/iv_search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:contentDescription="@null"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/toolbar_envelope" />
+
+                <TextView
+                    android:id="@+id/toolbar_newstext"
+                    android:layout_width="18dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/crop_oval_true"
+                    android:gravity="center"
+                    android:layout_marginTop="8dp"
+                    android:padding="3dp"
+                    android:text="0"
+                    android:visibility="visible"
+                    android:textSize="9sp" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_marginRight="20dp"
+                android:id="@+id/toolbar_back_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/toolbar_back_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="10dp"
+                    android:contentDescription="@null"
+                    android:gravity="center"
+                    android:src="@mipmap/toolbar_top_lift_back" />
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.design.widget.AppBarLayout>

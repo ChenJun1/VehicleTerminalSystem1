@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cvnavi.app.ui.activity.VehicleInformationActivity">
+
+    <include layout="@layout/layout_toolbar" />
+    <!--<include layout="@layout/fram_bus_detection_layout" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_layout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout1"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/more_text"
+                android:text="终端 ID" />
+
+            <TextView
+                android:id="@+id/number_plate_view"
+                style="@style/more_text"
+                android:text="--"
+                android:textColor="#c7e01d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1e1e1e"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/more_text"
+                android:text="VIN" />
+
+            <TextView
+                android:id="@+id/car_parameter_view"
+                style="@style/more_text"
+                android:text="--"
+                android:textColor="#c7e01d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#191919"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/more_text"
+                android:text="SIM卡号" />
+
+            <TextView
+                android:id="@+id/sleep_mode_view"
+                style="@style/more_text"
+                android:text="--"
+                android:textColor="#c7e01d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#1e1e1e"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/more_text"
+                android:text="车牌号" />
+
+            <TextView
+                android:id="@+id/driving_time_limit_view"
+                style="@style/more_text"
+                android:text="--"
+                android:textColor="#c7e01d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#191919"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/more_text"
+                android:text="发动机号" />
+
+            <TextView
+                android:id="@+id/break_time_view"
+                style="@style/more_text"
+                android:text="--"
+                android:textColor="#c7e01d" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout3"
+            android:gravity="center_vertical">
+
+            <TextView
+                style="@style/more_text"
+                android:text="车型" />
+
+            <TextView
+                android:id="@+id/IC_authority"
+                style="@style/more_text"
+                android:text="--"
+                android:textColor="#c7e01d" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

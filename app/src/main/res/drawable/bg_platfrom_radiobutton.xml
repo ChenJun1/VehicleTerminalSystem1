@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@mipmap/bg_radio" android:state_checked="true" />
+    <!-- not selected -->
+    <item android:drawable="@drawable/bg_platform_registration_tab1" android:state_checked="false" />
+
+</selector>

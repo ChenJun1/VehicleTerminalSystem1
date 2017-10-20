@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@null"
+              android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_191919">
+
+        <TextView
+            style="@style/fram_test_text1"
+            android:text="TTS 攻防测试"/>
+
+        <TextView
+            android:id="@+id/ttsTest_tv"
+            style="@style/fram_test_text2"
+            android:text="开始"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_1E1E1E">
+
+        <TextView
+            style="@style/fram_test_text1"
+            android:text="CAN LOOP 测试"/>
+
+        <TextView
+            android:id="@+id/loopTest_tv"
+            style="@style/fram_test_text2"
+            android:text="开启"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_191919">
+
+        <TextView
+            style="@style/fram_test_text1"
+            android:text="录音测试"/>
+
+        <TextView
+            android:id="@+id/recordTest_tv"
+            style="@style/fram_test_text2"
+            android:text="开始录音"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_1E1E1E">
+
+        <TextView
+            style="@style/fram_test_text1"
+            android:text="放音测试"/>
+
+        <TextView
+            android:id="@+id/playBackTest_tv"
+            style="@style/fram_test_text2"
+            android:text="开始放音"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_191919">
+
+        <TextView
+            style="@style/fram_test_text1"
+            android:text="GRS 透传串口"/>
+
+        <TextView
+            android:id="@+id/grsPort_tv"
+            style="@style/fram_test_text2"
+            android:text="开启"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/color_1E1E1E">
+
+        <TextView
+            style="@style/fram_test_text1"
+            android:text="GRRS 透传串口"/>
+
+        <TextView
+            android:id="@+id/gprsPort_tv"
+            style="@style/fram_test_text2"
+            android:text="开启"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

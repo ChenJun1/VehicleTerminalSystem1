@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.cvnavi.app.ui.activity.SetUpTheDeviceActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="10dp"
+        android:layout_weight="2">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="设置脉冲系数" />
+
+                <EditText
+                    android:id="@+id/number_plate_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:background="@null"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="累计里程设置" />
+
+                <EditText
+                    android:id="@+id/car_parameter_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:background="@null"
+                    android:textColor="#c7e01d" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="Km"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="疲劳驾驶门限" />
+
+                <EditText
+                    android:id="@+id/sleep_mode_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:background="@null"
+                    android:textColor="#c7e01d" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="min"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="超时速度阀值" />
+
+                <EditText
+                    android:background="@null"
+                    android:id="@+id/driving_time_limit_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="KM/H"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:textSize="18sp"
+                android:paddingLeft="15dp"
+                android:text="匹配休眠模式"
+                android:textColor="#ffffff" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="休眠等待时间" />
+
+                <EditText
+                    android:id="@+id/coefficient_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:background="@null"
+                    android:textColor="#c7e01d" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="秒"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="休眠唤醒时间" />
+
+                <EditText
+                    android:id="@+id/alarm_speed_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:background="@null"
+                    android:textColor="#c7e01d" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="min"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/radio_Boot_dormancy_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:button="@null"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/setup_bg_radio"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="开机休眠"
+                    android:textColor="@drawable/setup_bg_radio1_view"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_Shut_down_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/setup_bg_radio"
+                    android:text="关机休眠"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColor="@drawable/setup_bg_radio1_view"
+                    android:textSize="18sp" />
+                <!--<TextView-->
+                <!--style="@style/more_text"-->
+                <!--android:text="超时驾驶时限" />-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/timeout_driving_time_view"-->
+                <!--style="@style/more_text"-->
+                <!--android:text="&#45;&#45;"-->
+                <!--android:textColor="#c7e01d" />-->
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="1.3">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:text="报警提示方式"
+                android:paddingLeft="15dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/TTSvoice_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/setup_bg_radio"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="TTS语音"
+                    android:textColor="@drawable/setup_bg_radio1_view"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_buzzer_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/setup_bg_radio"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="蜂鸣器"
+                    android:textColor="@drawable/setup_bg_radio1_view"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:text="GNSS定位模式"
+                android:paddingLeft="15dp"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15dp"
+                android:paddingTop="10dp">
+
+                <RadioButton
+                    android:id="@+id/radio_Mixed_positioning_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/setup_bg_radio"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="混合定位"
+                    android:textColor="@drawable/setup_bg_radio1_view"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_GPS_positioning_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/setup_bg_radio"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="GPS定位"
+                    android:textColor="@drawable/setup_bg_radio1_view"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_Beidou_positioning_view"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/setup_bg_radio"
+                    android:button="@null"
+                    android:gravity="center"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:text="北斗定位"
+                    android:textColor="@drawable/setup_bg_radio1_view"
+                    android:textSize="18sp" />
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

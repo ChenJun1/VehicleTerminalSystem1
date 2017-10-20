@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0F0F0F"
+                android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar"/>
+
+
+    <LinearLayout
+        android:id="@+id/time_ll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/year_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="年"
+            android:textColor="@color/colorVehicleParametersText"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:id="@+id/month_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="月"
+            android:textColor="@color/colorVehicleParametersText"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:id="@+id/dd_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="日"
+            android:textColor="@color/colorVehicleParametersText"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:id="@+id/hh_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="时"
+            android:textColor="@color/colorVehicleParametersText"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:id="@+id/mm_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="分"
+            android:textColor="@color/colorVehicleParametersText"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:id="@+id/ss_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="秒"
+            android:textColor="@color/colorVehicleParametersText"
+            android:textSize="@dimen/text_size18"/>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/sjsz_rl"
+        android:layout_width="130dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/time_ll"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/vehicle_parameters_bg1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="时间设置"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"/>
+    </RelativeLayout>
+
+</RelativeLayout>

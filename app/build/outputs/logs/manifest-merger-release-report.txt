@@ -1,0 +1,207 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:2:1-93:12
+	package
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:4:11-35
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:3:11-57
+	xmlns:android
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+application
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:6:5-91:19
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\f7f77795ad8d52d03d4abe4aefe41bbe59570fcb\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\10b7c5d4d3183f15174f4c8917569097351b0ac8\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\3a07f6971941f1701e5ec3d7a0aa0a98fed9854f\output\AndroidManifest.xml:26:5-20
+MERGED from [VehicleTerminalSystem:serialportapi:unspecified] E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\serialportapi\build\intermediates\bundles\default\AndroidManifest.xml:11:5-15:19
+MERGED from [com.apkfuns.logutils:library:1.4.0] C:\Users\Administrator\.android\build-cache\abd86bb300c61196a65a348b346d600c7c45f105\output\AndroidManifest.xml:11:5-12:19
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\6f6e6e490716868288be6b9b479d19333a065f1b\output\AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\801bc1255e2d8a8b8bdf42d8dd82c7840e7d6296\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\15f8946a559962c4a6b0c549445d9e9478972a00\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\45de0a61eb8078d53e8d02d37649fa950c7b5667\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\61183b77eda2ee69cf8b6cd29ea334fec4c36647\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\e8c04edc6296d9f191e9ed7a23998494aac14ff9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\966dd7847421ea13f9b6469a1ca6da46510ccda8\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\d33f1550281b6589b7b9744d780bde9bd30734a0\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\11bb7ec989c29d11efa5a5edd250cd6964dd3408\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:10:9-41
+	android:supportsRtl
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:12:9-35
+	android:roundIcon
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:11:9-48
+	android:allowBackup
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:8:9-35
+	android:icon
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:9:9-43
+		REJECTED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\6f6e6e490716868288be6b9b479d19333a065f1b\output\AndroidManifest.xml:13:9-45
+	android:theme
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:13:9-41
+	tools:replace
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:14:9-37
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:7:9-32
+service#com.cvnavi.app.service.CommService
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:15:9-55
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:15:18-53
+activity#com.cvnavi.app.MainActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:17:9-26:20
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:19:13-50
+	android:theme
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:20:13-46
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:18:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:22:17-68
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:24:17-76
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:24:27-74
+activity#com.cvnavi.app.ui.activity.MainDialogActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:29:9-31:52
+	android:theme
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:30:13-59
+activity#com.cvnavi.app.ui.activity.DrivingScoreActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:34:9-36:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:36:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:35:13-61
+activity#com.cvnavi.app.ui.activity.TimeSetActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:41:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:40:13-56
+activity#com.cvnavi.app.ui.activity.TravelRecordInfoActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:44:9-46:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:46:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:45:13-65
+activity#com.cvnavi.app.ui.activity.TravelRecordActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:49:9-51:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:51:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:50:13-61
+activity#com.cvnavi.app.ui.activity.VehicleParametersActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:53:9-55:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:55:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:54:13-66
+activity#com.cvnavi.app.ui.activity.EquipmentDetectionActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:57:9-59:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:59:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:58:13-67
+activity#com.cvnavi.app.ui.activity.EquipmentActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:61:9-63:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:63:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:62:13-58
+activity#com.cvnavi.app.ui.activity.AccidentGraphActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:65:9-67:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:67:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:66:13-62
+activity#com.cvnavi.app.ui.activity.Device_InformationActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:69:9-71:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:71:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:70:13-67
+activity#com.cvnavi.app.ui.activity.PositioningStatusActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:73:9-75:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:75:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:74:13-66
+activity#com.cvnavi.app.ui.activity.SetUpTheDeviceActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:79:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:78:13-63
+activity#com.cvnavi.app.ui.activity.TriaxialStateActivity
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:81:9-84:20
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:83:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:82:13-62
+activity#com.cvnavi.app.Test
+ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:86:9-89:20
+	android:screenOrientation
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:88:13-50
+	android:name
+		ADDED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml:87:13-33
+uses-sdk
+INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\4fad058459d3b99869873177eb21a8d38b8a63ae\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\f7f77795ad8d52d03d4abe4aefe41bbe59570fcb\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Administrator\.android\build-cache\10b7c5d4d3183f15174f4c8917569097351b0ac8\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton:butterknife:8.0.1] C:\Users\Administrator\.android\build-cache\b415a3d2950de0a47dd73abb4390879981e5b592\output\AndroidManifest.xml:5:5-43
+MERGED from [com.akexorcist:RoundCornerProgressBar:2.0.3] C:\Users\Administrator\.android\build-cache\832c409660769f2be7a951c59ab14de8fd7b4785\output\AndroidManifest.xml:8:5-10:41
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\Administrator\.android\build-cache\ca406c0b60893787ce0146afa7689d01c9997486\output\AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\3a07f6971941f1701e5ec3d7a0aa0a98fed9854f\output\AndroidManifest.xml:20:5-43
+MERGED from [VehicleTerminalSystem:serialportapi:unspecified] E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\serialportapi\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.apkfuns.logutils:library:1.4.0] C:\Users\Administrator\.android\build-cache\abd86bb300c61196a65a348b346d600c7c45f105\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.contrarywind:Android-PickerView:3.2.5] C:\Users\Administrator\.android\build-cache\ebf40f420d888642ad05cd4d1b9708b5e06c6954\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pnikosis:materialish-progress:1.0] C:\Users\Administrator\.android\build-cache\6f6e6e490716868288be6b9b479d19333a065f1b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\801bc1255e2d8a8b8bdf42d8dd82c7840e7d6296\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\15f8946a559962c4a6b0c549445d9e9478972a00\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\45de0a61eb8078d53e8d02d37649fa950c7b5667\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\61183b77eda2ee69cf8b6cd29ea334fec4c36647\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\e8c04edc6296d9f191e9ed7a23998494aac14ff9\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\966dd7847421ea13f9b6469a1ca6da46510ccda8\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\d33f1550281b6589b7b9744d780bde9bd30734a0\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\11bb7ec989c29d11efa5a5edd250cd6964dd3408\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+		INJECTED from E:\SHIHANGWANGLUO\SVN\VehicleTerminalSystem\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\4fad058459d3b99869873177eb21a8d38b8a63ae\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Administrator\.android\build-cache\f7f77795ad8d52d03d4abe4aefe41bbe59570fcb\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Administrator\.android\build-cache\3a07f6971941f1701e5ec3d7a0aa0a98fed9854f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Administrator\.android\build-cache\3d84e330c1d27f5e7fae09064a67c4d2bda0cbab\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Administrator\.android\build-cache\801bc1255e2d8a8b8bdf42d8dd82c7840e7d6296\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Administrator\.android\build-cache\15f8946a559962c4a6b0c549445d9e9478972a00\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Administrator\.android\build-cache\45de0a61eb8078d53e8d02d37649fa950c7b5667\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Administrator\.android\build-cache\61183b77eda2ee69cf8b6cd29ea334fec4c36647\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Administrator\.android\build-cache\e8c04edc6296d9f191e9ed7a23998494aac14ff9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\966dd7847421ea13f9b6469a1ca6da46510ccda8\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Administrator\.android\build-cache\d33f1550281b6589b7b9744d780bde9bd30734a0\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Administrator\.android\build-cache\11bb7ec989c29d11efa5a5edd250cd6964dd3408\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Administrator\.android\build-cache\aa861b90d7467ef0a8ac7a931c12f940a98e2b59\output\AndroidManifest.xml:26:9-47

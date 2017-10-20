@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#171717"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/index_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/endTime_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/licenseNo_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+
+        <TextView
+            android:id="@+id/longitude_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/latitude_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/altitude_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

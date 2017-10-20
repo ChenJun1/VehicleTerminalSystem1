@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.cvnavi.app.ui.activity.SellCreditActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#171717"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:text="基本信息"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size18" />
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="在线状态" />
+
+                <TextView
+                    android:id="@+id/online_status_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="离线" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="车厂终端ID" />
+
+                <TextView
+                    android:id="@+id/Terminal_ID_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="3431432432" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="IP地址" />
+
+                <TextView
+                    android:id="@+id/IP_address_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="124.124.14.12" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="端口" />
+
+                <TextView
+                    android:id="@+id/port_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="12000" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="车型" />
+
+                <TextView
+                    android:id="@+id/Models_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="默认车型" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="销贷版本" />
+
+                <TextView
+                    android:id="@+id/Sales_version_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="V1.22.2224324" />
+            </LinearLayout>
+
+            <View style="@style/sell_credit_layout" />
+
+            <View
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c" />
+
+            <View style="@style/sell_credit_layout" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="#171717"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:text="销贷参数"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size18" />
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="绑定状态" />
+
+                <TextView
+                    android:id="@+id/Binding_status_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="未绑定" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="已绑定发动机" />
+
+                <TextView
+                    android:id="@+id/Bind_engine_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="34314324" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="车锁方向" />
+
+                <TextView
+                    android:id="@+id/Lock_direction_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="1200rpm 常规限制" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="控制状态" />
+
+                <TextView
+                    android:id="@+id/Control_state_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="未控制" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="还款日期" />
+
+                <TextView
+                    android:id="@+id/Repayment_date_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="默认车型" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="超期天数" />
+
+                <TextView
+                    android:id="@+id/Expired_days_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="五天" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="到期日期" />
+
+                <TextView
+                    android:id="@+id/Date_of_Expiry_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="2015.03.05" />
+            </LinearLayout>
+
+            <View
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c" />
+
+            <View style="@style/sell_credit_layout" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#171717"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:text="发动机信息"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size18" />
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="发动机EUC类型" />
+
+                <TextView
+                    android:id="@+id/Engine_EUC_type_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="bosch" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="当前发动机ID" />
+
+                <TextView
+                    android:id="@+id/Current_engine_ID_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="34314324" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:text="数据回传"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size18" />
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="CAN回传频率" />
+
+                <TextView
+                    android:id="@+id/can_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="10S" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="GIS回传频率" />
+
+                <TextView
+                    android:id="@+id/gis_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="1S" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_radio"
+                android:gravity="center_vertical"
+                android:text="电控单元"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size18" />
+
+            <LinearLayout style="@style/sell_credit_layout">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="VCN状态" />
+
+                <TextView
+                    android:id="@+id/vcn_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="在线" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/sell_credit_layout"
+                android:background="#1c1c1c">
+
+                <TextView
+                    style="@style/sell_credit_textView"
+                    android:text="AMT状态" />
+
+                <TextView
+                    android:id="@+id/amt_view"
+                    style="@style/sell_credit_textView1"
+                    android:text="在线" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

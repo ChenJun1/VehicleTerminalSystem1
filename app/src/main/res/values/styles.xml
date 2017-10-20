@@ -1,0 +1,206 @@
+<resources>
+
+    <!--&lt;!&ndash; Base application theme. &ndash;&gt;-->
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <!--<style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">-->
+    <!--&lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+    <!--<item name="colorPrimary">@color/colorPrimary</item>-->
+    <!--<item name="colorPrimaryDark">@color/colorPrimaryDark</item>-->
+    <!--<item name="colorAccent">@color/colorAccent</item>-->
+    <!--</style>-->
+
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorAccent</item>
+        <item name="colorPrimaryDark">@color/colorAccent</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppThemes" parent="AppBaseTheme"/>
+
+    <style name="AppThemes.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppThemes.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!--透明DialogActivity-->
+    <style name="transcutestyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/colorTransparent</item><!--背景透明-->
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="alarm_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/fab_margin</item>
+        <item name="android:drawableLeft">@mipmap/alarm</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="more_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="device_infor_text" parent="more_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="AppWelcome" parent="AppThemes">
+        <item name="android:windowBackground">@mipmap/welcome_page</item>
+    </style>
+
+    <style name="TabItme" parent="Widget.Design.TabLayout">
+
+    </style>
+
+
+    <style name="alert_dialog" parent="android:Theme.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowBackground">@color/float_transparent</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.4</item>
+    </style>
+
+    <style name="dialog_blue_button" parent="android:Widget.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">31dp</item>
+        <item name="android:background">@drawable/blue_button_background</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:paddingLeft">21dp</item>
+        <item name="android:paddingRight">21dp</item>
+        <item name="android:textColor">@color/button_text_color</item>
+    </style>
+
+    <!--快速注册-->
+    <style name="fram_text">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1.5</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size18</item>
+        <item name="android:textColor">@color/colorVehicleParametersText2</item>
+        <item name="android:layout_marginLeft">20dp</item>
+    </style>
+    <!--EditText-->
+    <style name="fram_editText">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">2.5</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/text_size18</item>
+        <item name="android:textColor">@color/color_D3EE1D</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!--end-->
+
+    <!--设备测试-->
+    <style name="fram_test_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size18</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!--胎压检测  text-->
+    <style name="tire_pessure_text">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:textSize">@dimen/text_size18</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorVehicleParametersText2</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="tire_pessure_view">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">#D0D0D0</item>
+    </style>
+
+    <style name="tire_pessure_layou">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:background">@drawable/shape_tire_pessure</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    <!--胎压检测  end-->
+
+
+    <style name="fram_test_text1" parent="fram_test_text">
+        <item name="android:textColor">@color/colorVehicleParametersText2</item>
+        <item name="android:layout_marginLeft">30dp</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="fram_test_text2">
+        <item name="android:maxLines">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/color_D3EE1D</item>
+        <item name="android:textSize">@dimen/text_size18</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@drawable/vehicle_parameters_bg1</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">0dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <style name="fram_test_text3" parent="fram_test_text">
+        <item name="android:textColor">@color/color_FF8A00</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+    <style name="fram_test_text4" parent="fram_test_text">
+        <item name="android:textColor">@color/color_E0FD1D</item>
+        <item name="android:layout_marginRight">30dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+    <!--end-->
+
+    <style name="sell_credit_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+    <style name="sell_credit_textView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:drawablePadding">@dimen/fab_margin</item>
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:textSize">@dimen/text_size18</item>
+    </style>
+
+    <style name="sell_credit_textView1" parent="sell_credit_textView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:paddingRight">8dp</item>
+        <item name="android:paddingLeft">0dp</item>
+        <item name="android:gravity">center_vertical|right</item>
+        <item name="android:textColor">@color/color_E0FD1D</item>
+    </style>
+</resources>

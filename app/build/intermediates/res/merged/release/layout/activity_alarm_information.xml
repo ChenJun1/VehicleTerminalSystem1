@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardBackgroundColor="#121212"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <com.cvnavi.app.ui.customize.AlarmTextView
+                android:id="@+id/logintype_view"
+                style="@style/alarm_TextView"
+                android:text="驾驶员登录状态" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/speedState_view"
+                        style="@style/alarm_TextView"
+                        android:text="速度状态" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/emergencyAlarm_view"
+                        style="@style/alarm_TextView"
+                        android:text="紧急报警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/speedAlarm_View"
+                        style="@style/alarm_TextView"
+                        android:text="超速报警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/fatigueDriving_View"
+                        style="@style/alarm_TextView"
+                        android:text="疲劳驾驶" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/dangerSarning_View"
+                        style="@style/alarm_TextView"
+                        android:text="危险预警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/GNSSModule_View"
+                        style="@style/alarm_TextView"
+                        android:text="GNSS模块发生故障" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/GNSSNotConnected_View"
+                        style="@style/alarm_TextView"
+                        android:text="GNSS天线未连接" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/GNSSShortCircuit_View"
+                        style="@style/alarm_TextView"
+                        android:text="GNSST天线短路" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/Undervoltage_View"
+                        style="@style/alarm_TextView"
+                        android:text="终端主电源欠压" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/powerDown_View"
+                        style="@style/alarm_TextView"
+                        android:text="终端主电源掉电" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/displayFailure_View"
+                        style="@style/alarm_TextView"
+                        android:text="终端显示器故障" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/TTSmalfunction_View"
+                        style="@style/alarm_TextView"
+                        android:text="TTS模块故障" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/CameraFailure_View"
+                        style="@style/alarm_TextView"
+                        android:text="摄像头故障" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/ICCarMalfunction_View"
+                        style="@style/alarm_TextView"
+                        android:text="道路运输证IC卡故障" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/speedingWarning_View"
+                        style="@style/alarm_TextView"
+                        android:text="超速预警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/drivingWarning_View"
+                        style="@style/alarm_TextView"
+                        android:text="疲劳驾驶预警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/drivingOvertime_View"
+                        style="@style/alarm_TextView"
+                        android:text="当天累计驾驶超时" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/overtimeParking_View"
+                        style="@style/alarm_TextView"
+                        android:text="超时停车" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/area_View"
+                        style="@style/alarm_TextView"
+                        android:text="进入区域" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/line_View"
+                        style="@style/alarm_TextView"
+                        android:text="进入线路" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/timeInsufficient_View"
+                        style="@style/alarm_TextView"
+                        android:text="道路行驶时间不足/过长" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/deviationFromTheAlarm_View"
+                        style="@style/alarm_TextView"
+                        android:text="线路偏离报警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/VSSmalfunction_View"
+                        style="@style/alarm_TextView"
+                        android:text="车辆VSS故障" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/abnormalOil_View"
+                        style="@style/alarm_TextView"
+                        android:text="车辆油量异常" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/stolen_View"
+                        style="@style/alarm_TextView"
+                        android:text="车辆被盗" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/ignition_View"
+                        style="@style/alarm_TextView"
+                        android:text="车辆非法点火" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/shift_View"
+                        style="@style/alarm_TextView"
+                        android:text="车辆非法移位" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/collisionWarning_View"
+                        style="@style/alarm_TextView"
+                        android:text="碰撞预警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/rolloverWarning_View"
+                        style="@style/alarm_TextView"
+                        android:text="侧翻预警" />
+
+                    <com.cvnavi.app.ui.customize.AlarmTextView
+                        android:id="@+id/CallThePolice_View"
+                        style="@style/alarm_TextView"
+                        android:text="非法开门报警" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

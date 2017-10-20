@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="@null"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <com.cvnavi.app.ui.customize.CustomCircleBar
+            android:id="@+id/custom_circle_bar"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:background="@mipmap/round_001"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1.5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/driving_status_tv"
+                    android:layout_alignTop="@+id/xszt_1"
+                    android:background="#00B7EE"/>
+
+                <TextView
+                    android:id="@+id/xszt_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="行驶状态"
+                    android:textColor="@color/colorVehicleParametersText"
+                    android:textSize="@dimen/text_size18"/>
+
+                <TextView
+                    android:id="@+id/driving_status_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/xszt_1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="--"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="21sp"
+                    tools:text="正常"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1">
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/drive_time_tv"
+                    android:layout_alignTop="@+id/jssj"
+                    android:background="@color/color_39800"/>
+
+                <TextView
+                    android:id="@+id/jssj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="驾驶时间"
+                    android:textColor="@color/colorVehicleParametersText"
+                    android:textSize="@dimen/text_size18"/>
+
+                <TextView
+                    android:id="@+id/drive_time_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jssj"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="--"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="21sp"
+                    tools:text="正常"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/consumption_tv"
+                    android:layout_alignTop="@+id/yh"
+                    android:background="@color/color_00B7EE"/>
+
+                <TextView
+                    android:id="@+id/yh"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="油耗"
+                    android:textColor="@color/colorVehicleParametersText"
+                    android:textSize="@dimen/text_size18"/>
+
+                <TextView
+                    android:id="@+id/consumption_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/yh"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="--"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="21sp"
+                    tools:text="正常"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.1">
+
+                <TextView
+                    android:layout_width="2dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/rest_time_tv"
+                    android:layout_alignTop="@+id/xxsj"
+                    android:background="@color/color_00E145"
+                    android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/xxsj"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="休息时间"
+                    android:textColor="@color/colorVehicleParametersText"
+                    android:textSize="@dimen/text_size18"/>
+
+                <TextView
+                    android:id="@+id/rest_time_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/xxsj"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="--"
+                    android:textColor="#FF8A00"
+                    android:textSize="21sp"/>
+
+                <ImageView
+                    android:id="@+id/rest_statu_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/rest_statu_tv"
+                    android:layout_alignLeft="@+id/xxsj"
+                    android:layout_marginBottom="5dp"
+                    android:src="@mipmap/exclamation_mark"
+                    android:visibility="invisible"/>
+
+                <TextView
+                    android:id="@+id/rest_statu_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rest_time_tv"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/rest_statu_iv"
+                    android:text="已满"
+                    android:textColor="#FF8A00"
+                    android:textSize="22sp"
+                    android:visibility="gone"
+                    tools:text="已满"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@null"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lift_up_tv"
+                android:layout_alignTop="@+id/jszt"
+                android:background="#00B7EE"/>
+
+            <TextView
+                android:id="@+id/jszt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="举升状态"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/lift_up_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/jszt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="--"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="21sp"
+                tools:text="正常"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/cover_tv"
+                android:layout_alignTop="@+id/pbzt"
+                android:background="@color/color_39800"/>
+
+            <TextView
+                android:id="@+id/pbzt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="顶盖状态"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/cover_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/pbzt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="--"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="21sp"
+                tools:text="正常"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/speed_limit_tv"
+                android:layout_alignTop="@+id/xszt_2"
+                android:background="@color/color_00E145"/>
+
+            <TextView
+                android:id="@+id/xszt_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="限速状态"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/speed_limit_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/xszt_2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="--"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="21sp"
+                tools:text="正常"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/area_tv"
+                android:layout_alignTop="@+id/szqy"
+                android:background="#00B7EE"/>
+
+            <TextView
+                android:id="@+id/szqy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="所在区域"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/area_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/szqy"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="--"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="21sp"
+                tools:text="正常"/>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/lock_car_status_tv"
+                android:layout_alignTop="@+id/sczt"
+                android:background="#00B7EE"/>
+
+            <TextView
+                android:id="@+id/sczt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="锁车状态"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/lock_car_status_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/sczt"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="--"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="21sp"
+                tools:text="正常"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/temperature_1_tv"
+                android:layout_alignTop="@+id/wd"
+                android:background="@color/color_39800"/>
+
+            <TextView
+                android:id="@+id/wd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="温度"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/text_size18"/>
+
+            <TextView
+                android:id="@+id/temperature_1_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/wd"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="--"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="21sp"
+                tools:text="正常"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/progressll"
+                android:layout_alignTop="@+id/zzbfv"
+                android:background="@color/color_39800"/>
+
+            <TextView
+                android:id="@+id/zzbfv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="载重百分比"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/text_size18"/>
+
+            <RelativeLayout
+                android:id="@+id/zzzt_rl"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:layout_above="@+id/progressll"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@+id/zzbfv"
+                android:background="@drawable/vehicle_parameters_bg1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/load_state_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="空载"
+                        android:textColor="@color/colorVehicleParametersText2"
+                        android:textSize="18sp"/>
+
+                    <ImageView
+                        android:id="@+id/load_state_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@mipmap/koangzai"/>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/progressll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/zzbfv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                    android:id="@+id/round_corner_progress_bar"
+                    android:layout_width="0dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    app:rcBackgroundColor="#707070"
+                    app:rcProgress="0"
+                    app:rcProgressColor="#E0FD1D"
+                    app:rcRadius="20dp"/>
+
+                <TextView
+                    android:id="@+id/round_corner_progress_number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:text="--%"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="@dimen/text_size18"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="invisible">
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

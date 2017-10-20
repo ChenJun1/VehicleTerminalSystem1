@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+    android:background="#0f0f0f"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/fog_lights" />
+
+                <TextView
+                    android:id="@+id/d0_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d0_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/brake" />
+
+                <TextView
+                    android:id="@+id/d7_tv"
+                    style="@style/more_text"
+                    android:layout_width="0dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d7_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/high_beam" />
+
+                <TextView
+                    android:id="@+id/d4_tv"
+                    style="@style/more_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d4_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/turn_left" />
+
+                <TextView
+                    android:id="@+id/d6_tv"
+                    style="@style/more_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d6_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/ignition" />
+
+                <TextView
+                    android:id="@+id/d1_tv"
+                    style="@style/more_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d1_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/reversing" />
+
+                <TextView
+                    android:id="@+id/d2_tv"
+                    style="@style/more_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d2_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/low_beam" />
+
+                <TextView
+                    android:id="@+id/d3_tv"
+                    style="@style/more_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d3_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:src="@mipmap/turn_right" />
+
+                <TextView
+                    android:id="@+id/d5_tv"
+                    style="@style/more_text"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="1"
+                    android:text="" />
+
+                <TextView
+                    android:id="@+id/d5_switch_tv"
+                    style="@style/more_text"
+                    android:layout_marginRight="20dp"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f0f0f"
+    android:orientation="vertical"
+    tools:context="com.cvnavi.app.ui.activity.VehicleParametersActivity">
+
+    <include layout="@layout/layout_toolbar" />
+    <!--<include layout="@layout/fram_bus_detection_layout" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="车牌号码" />
+
+                <TextView
+                    android:id="@+id/number_plate_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="车辆参数" />
+
+                <TextView
+                    android:id="@+id/car_parameter_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="睡眠模式" />
+
+                <TextView
+                    android:id="@+id/sleep_mode_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="当天驾驶限时" />
+
+                <TextView
+                    android:id="@+id/driving_time_limit_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="休息时间限时" />
+
+                <TextView
+                    android:id="@+id/break_time_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout3"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="当前IC权限" />
+
+                <TextView
+                    android:id="@+id/IC_authority"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="车辆VIN号" />
+
+                <TextView
+                    android:id="@+id/car_VIN_number"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="脉冲系数" />
+
+                <TextView
+                    android:id="@+id/coefficient_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="报警车速" />
+
+                <TextView
+                    android:id="@+id/alarm_speed_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="超时驾驶时限" />
+
+                <TextView
+                    android:id="@+id/timeout_driving_time_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="超时预警差值" />
+
+                <TextView
+                    android:id="@+id/warning_difference_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout3" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cvnavi.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="25" />
+
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="25.3.1" />
+
+    <application
+        android:name="com.cvnavi.app.BaseApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppThemes" >
+        <service android:name="com.cvnavi.app.service.CommService" />
+
+        <activity
+            android:name="com.cvnavi.app.MainActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppWelcome" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 装载状态 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.MainDialogActivity"
+            android:theme="@style/transcutestyle" />
+
+        <!-- 驾驶评分 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.DrivingScoreActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- 时间设置 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.TimeSetActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- 行驶记录详情 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.TravelRecordInfoActivity"
+            android:screenOrientation="landscape" />
+
+        <!-- 行驶记录 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.TravelRecordActivity"
+            android:screenOrientation="landscape" />
+        <!-- 车辆参数 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.VehicleParametersActivity"
+            android:screenOrientation="landscape" />
+        <!-- 设备检测 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.EquipmentDetectionActivity"
+            android:screenOrientation="landscape" />
+        <!-- 设备检测菜单 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.EquipmentActivity"
+            android:screenOrientation="landscape" />
+        <!-- 事故疑点曲线图 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.AccidentGraphActivity"
+            android:screenOrientation="landscape" />
+        <!-- 设备参数 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.Device_InformationActivity"
+            android:screenOrientation="landscape" />
+        <!-- 定位状态 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.PositioningStatusActivity"
+            android:screenOrientation="landscape" />
+        <!-- 设备参数 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.SetUpTheDeviceActivity"
+            android:screenOrientation="landscape" />
+        <!-- 工程菜单 -->
+        <activity
+            android:name="com.cvnavi.app.ui.activity.TriaxialStateActivity"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="com.cvnavi.app.Test"
+            android:screenOrientation="landscape" >
+        </activity>
+    </application>
+
+</manifest>

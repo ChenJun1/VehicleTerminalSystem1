@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">势航终端互联</string>
+    <string name="bottom_tabs_1">实时信息</string>
+    <string name="bottom_tabs_2">报警状态</string>
+    <string name="bottom_tabs_3">更多</string>
+    <string name="bottom_tabs_4">核准证信息</string>
+    <string name="top_tabs_1">车载终端</string>
+    <string name="sure">确定</string>
+    <string name="cancel">取消</string>
+
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+</resources>

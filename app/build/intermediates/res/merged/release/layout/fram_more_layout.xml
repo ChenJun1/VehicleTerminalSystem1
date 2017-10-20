@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f0f0f"
+    android:orientation="horizontal">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/travel_record"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:drawableTop="@drawable/toolbar_travel_record"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:text="行驶记录" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Vehicle_Parameters"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableTop="@drawable/toolbar_travel_record"
+        android:text="车辆参数"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/Equipment_Detection"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:drawableTop="@drawable/toolbar_travel_record"
+        android:text="设备检测"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/EquipmentManagement"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:drawableTop="@drawable/toolbar_travel_record"
+        android:gravity="center"
+        android:text="设备管理"
+        android:textColor="#ffffff" />
+</LinearLayout>

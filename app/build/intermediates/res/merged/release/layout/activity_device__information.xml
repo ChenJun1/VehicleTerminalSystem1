@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context="com.cvnavi.app.ui.activity.Device_InformationActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="固件信息"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="固件版本" />
+
+                <TextView
+                    android:id="@+id/firmware_version_view"
+                    style="@style/device_infor_text"
+                    android:text="6.6.606.66.60"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="硬件版本" />
+
+                <TextView
+                    android:id="@+id/hardware_version_view"
+                    style="@style/device_infor_text"
+                    android:text="6.60"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="通讯模块类型" />
+
+                <TextView
+                    android:id="@+id/communication_module_type_view"
+                    style="@style/device_infor_text"
+                    android:text="SFDSFSDF"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="通讯模块版本" />
+
+                <TextView
+                    android:id="@+id/communication_module_version_view"
+                    style="@style/device_infor_text"
+                    android:text="V1.0"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="定位模块类型" />
+
+                <TextView
+                    android:id="@+id/positioning_module_type_view"
+                    style="@style/device_infor_text"
+                    android:text="TD3017"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="定位模块版本" />
+
+                <TextView
+                    android:id="@+id/positioning_module_version_view"
+                    style="@style/device_infor_text"
+                    android:text="V1.0"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:gravity="center_vertical"
+                android:text="生产信息"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="产品生产流水号" />
+
+                <TextView
+                    android:id="@+id/serial_number_view"
+                    style="@style/device_infor_text"
+                    android:text="234567"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="产品型号" />
+
+                <TextView
+                    android:id="@+id/product_number_view"
+                    style="@style/device_infor_text"
+                    android:text="HVT100"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="生产日期" />
+
+                <TextView
+                    android:id="@+id/time_view"
+                    style="@style/device_infor_text"
+                    android:text="2015.1.2"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/device_infor_text"
+                    android:text="CCC认证码" />
+
+                <TextView
+                    android:id="@+id/authentication_code_view"
+                    style="@style/device_infor_text"
+                    android:text="C0001234"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

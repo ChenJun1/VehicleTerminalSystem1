@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar"/>
+
+    <LinearLayout
+        android:id="@+id/top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/bg_driving_score"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="序号"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="证件号"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="开始时间"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="结束时间"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="超转次数"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:text="超速次数"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:background="#0f0f0f"
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

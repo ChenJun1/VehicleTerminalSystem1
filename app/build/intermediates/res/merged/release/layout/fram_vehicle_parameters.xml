@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_margin="@dimen/frame_margin"
+              android:background="@null"
+              android:orientation="vertical"
+              android:paddingBottom="10dp"
+              android:weightSum="10">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/frame_margin"
+            android:layout_weight="7"
+            android:background="@mipmap/bg_001"
+            android:orientation="horizontal"
+            android:weightSum="10">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="1.8">
+
+                <TextView
+                    android:id="@+id/jsy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="驾驶员"
+                    android:textColor="@color/colorVehicleParametersText"
+                    android:textSize="@dimen/text_size18"/>
+
+                <TextView
+                    android:id="@+id/driver_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/jsy"
+                    android:text=""
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="22sp"
+                    tools:text="孙悟空"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="0.2">
+
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="#2E2E2E"/>
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="5">
+
+                <TextView
+                    android:id="@+id/jszj"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="驾驶证号"
+                    android:textColor="@color/colorVehicleParametersText"
+                    android:textSize="@dimen/text_size18"/>
+
+                <TextView
+                    android:id="@+id/document_number_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/jszj"
+                    android:text=""
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="24sp"
+                    tools:text="43243453454546534"/>
+
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3">
+
+                <RelativeLayout
+                    android:id="@+id/jspf_rl"
+                    android:layout_width="130dp"
+                    android:layout_height="35dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/vehicle_parameters_bg1">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <TextView
+                            android:id="@+id/jspf"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="驾驶评分"
+                            android:textColor="@color/colorVehicleParametersText2"
+                            android:textSize="@dimen/text_size18"/>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="10dp"
+                            android:src="@mipmap/driving_score"/>
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="3"
+            android:background="@mipmap/bg_001">
+
+            <RelativeLayout
+                android:id="@+id/ddata_time_rl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp">
+
+                <TextView
+                    android:id="@+id/cycle_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/time_tv"
+                    android:text="星期"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="@dimen/text_size18"
+                    tools:text="星期五"/>
+
+                <TextView
+                    android:id="@+id/date_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/time_tv"
+                    android:text="0000.00.00"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="@dimen/text_size18"
+                    tools:text="2017.01.20"/>
+
+                <TextView
+                    android:id="@+id/time_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="00:00:00"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="44sp"
+                    tools:text="10:26:22"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="7"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="7"
+            android:background="@mipmap/bg_002">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3.5">
+
+                <com.cvnavi.app.ui.customize.CustomCircleBar
+                    android:id="@+id/custom_circle_bar"
+                    android:layout_width="170dp"
+                    android:layout_height="170dp"
+                    android:layout_centerInParent="true"
+                    android:background="@mipmap/round_001"/>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_margin="10dp"
+                android:layout_weight="6.5"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="5">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="2dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/driving_status_tv"
+                            android:layout_alignTop="@+id/xszt"
+                            android:background="#00B7EE"/>
+
+                        <TextView
+                            android:id="@+id/xszt"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="行驶状态"
+                            android:textColor="@color/colorVehicleParametersText"
+                            android:textSize="@dimen/text_size18"/>
+
+                        <TextView
+                            android:id="@+id/driving_status_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/xszt"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="--"
+                            android:textColor="@color/colorVehicleParametersText2"
+                            android:textSize="21sp"
+                            tools:text="正常"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="2dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/drive_time_tv"
+                            android:layout_alignTop="@+id/jssj"
+                            android:background="#F39800"/>
+
+                        <TextView
+                            android:id="@+id/jssj"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="驾驶时间"
+                            android:textColor="@color/colorVehicleParametersText"
+                            android:textSize="@dimen/text_size18"/>
+
+                        <TextView
+                            android:id="@+id/drive_time_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/jssj"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text="--"
+                            android:textColor="@color/colorVehicleParametersText2"
+                            android:textSize="21sp"
+                            tools:text="正常"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:layout_width="2dp"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/rest_time_tv"
+                            android:layout_alignTop="@+id/xxsj"
+                            android:background="#00E145"
+                            android:textColor="@color/colorPrimary"/>
+
+                        <TextView
+                            android:id="@+id/xxsj"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="休息时间"
+                            android:textColor="@color/colorVehicleParametersText"
+                            android:textSize="@dimen/text_size18"/>
+
+                        <TextView
+                            android:id="@+id/rest_time_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/xxsj"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="5dp"
+                            android:text=""
+                            android:textColor="#FF8A00"
+                            android:textSize="21sp"/>
+
+                        <ImageView
+                            android:id="@+id/rest_statu_iv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBottom="@+id/rest_statu_tv"
+                            android:layout_alignLeft="@+id/xxsj"
+                            android:layout_marginBottom="5dp"
+                            android:src="@mipmap/exclamation_mark"
+                            android:visibility="gone"/>
+
+                        <TextView
+                            android:id="@+id/rest_statu_tv"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/rest_time_tv"
+                            android:layout_marginLeft="10dp"
+                            android:layout_toRightOf="@+id/rest_statu_iv"
+                            android:text="已满"
+                            android:textColor="#FF8A00"
+                            android:textSize="22sp"
+                            android:visibility="gone"
+                            tools:text="已满"/>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="5">
+
+                    <TextView
+                        android:id="@+id/pjyh"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/zzbfb"
+                        android:text="平均油耗"
+                        android:textColor="@color/colorVehicleParametersText"
+                        android:textSize="@dimen/text_size18"/>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true">
+
+                        <TextView
+                            android:id="@+id/fuel_consumption_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_below="@+id/pjyh"
+                            android:layout_marginTop="10dp"
+                            android:gravity="center"
+                            android:text="-- L"
+                            android:textColor="@color/colorVehicleParametersText2"
+                            android:textSize="24sp"/>
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:id="@+id/zzbfb"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="100dp"
+                        android:text="载重百分比"
+                        android:textColor="@color/colorVehicleParametersText"
+                        android:textSize="@dimen/text_size18"/>
+
+                    <LinearLayout
+                        android:id="@+id/progressll"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignLeft="@+id/zzbfb"
+                        android:layout_alignParentBottom="true"
+                        android:layout_below="@+id/zzbfb"
+                        android:orientation="horizontal">
+
+                        <com.akexorcist.roundcornerprogressbar.RoundCornerProgressBar
+                            android:id="@+id/round_corner_progress_bar"
+                            android:layout_width="0dp"
+                            android:layout_height="25dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            app:rcBackgroundColor="#707070"
+                            app:rcProgress="0"
+                            app:rcProgressColor="#E0FD1D"
+                            app:rcRadius="20dp"/>
+
+                        <TextView
+                            android:id="@+id/round_corner_progress_number"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:text="--%"
+                            android:textColor="@color/colorVehicleParametersText2"
+                            android:textSize="@dimen/text_size18"/>
+
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <RelativeLayout
+                            android:id="@+id/zzzt_rl"
+                            android:layout_width="100dp"
+                            android:layout_height="35dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:background="@drawable/vehicle_parameters_bg1">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerInParent="true"
+                                android:orientation="horizontal">
+
+                                <TextView
+                                    android:id="@+id/load_state_tv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="10dp"
+                                    android:text="空载"
+                                    android:textColor="@color/colorVehicleParametersText2"
+                                    android:textSize="18sp"/>
+
+                                <ImageView
+                                    android:id="@+id/load_state_iv"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="8dp"
+                                    android:layout_marginRight="10dp"
+                                    android:src="@mipmap/koangzai"/>
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="3"
+            android:background="@mipmap/bg_002"
+            android:orientation="vertical"
+            android:weightSum="10">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="2">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="温度"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="@dimen/text_size18"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="8"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/temperature_a_1_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:text="-°C"
+                        android:textColor="@color/colorVehicleParametersText2"
+                        android:textSize="@dimen/text_size18"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="7"
+                        android:src="@mipmap/temperature1"/>
+
+                    <TextView
+                        android:id="@+id/temperature_a_2_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:text="-°C"
+                        android:textColor="@color/colorVehicleParametersText2"
+                        android:textSize="@dimen/text_size18"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/temperature_b_1_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:text="-°C"
+                        android:textColor="@color/colorVehicleParametersText2"
+                        android:textSize="@dimen/text_size18"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="7"
+                        android:src="@mipmap/temperature2"/>
+
+                    <TextView
+                        android:id="@+id/temperature_b_2_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:text="-°C"
+                        android:textColor="@color/colorVehicleParametersText2"
+                        android:textSize="@dimen/text_size18"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/temperature_c_1_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:text="-°C"
+                        android:textColor="@color/colorVehicleParametersText2"
+                        android:textSize="@dimen/text_size18"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="7"
+                        android:src="@mipmap/temperature3"/>
+
+                    <TextView
+                        android:id="@+id/temperature_c_2_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1.5"
+                        android:text="-°C"
+                        android:textColor="@color/colorVehicleParametersText2"
+                        android:textSize="@dimen/text_size18"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

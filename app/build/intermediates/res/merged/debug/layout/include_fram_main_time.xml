@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="@null"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/ddata_time_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="5dp"
+        android:paddingTop="7dp"
+        >
+
+        <TextView
+            android:id="@+id/cycle_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/time_tv"
+            android:text="星期"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"
+            tools:text="星期五"/>
+
+        <TextView
+            android:id="@+id/date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/time_tv"
+            android:text="0000.00.00"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/text_size18"
+            tools:text="2017.01.20"/>
+
+        <TextView
+            android:id="@+id/time_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="00:00:00"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="42sp"
+            tools:text="10:26:22"/>
+    </RelativeLayout>
+
+</RelativeLayout>

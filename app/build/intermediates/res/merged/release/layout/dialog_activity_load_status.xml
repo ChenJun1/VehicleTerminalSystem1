@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+    <LinearLayout
+        android:paddingTop="30dp"
+        android:id="@+id/close_ll"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+     >
+
+        <ImageView
+            android:id="@+id/close_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:src="@mipmap/close"/>
+    </LinearLayout>
+
+
+    <RadioGroup
+        android:id="@+id/zzzt_rg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/kongzai_rb"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_dialog_activity_kongzai"
+            android:gravity="center"
+            android:paddingLeft="150dp"
+            android:text="空载"
+            android:textColor="@drawable/color_radiobutton"
+            android:textSize="22sp"/>
+
+        <RadioButton
+            android:id="@+id/banzai_rb"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_dialog_activity_banzai"
+            android:gravity="center"
+            android:text="半载"
+            android:textColor="@drawable/color_radiobutton"
+            android:textSize="22sp"/>
+
+        <RadioButton
+            android:id="@+id/manzai_rb"
+            android:layout_width="0dp"
+            android:layout_height="150dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/main_dialog_activity_manzai"
+            android:gravity="center"
+            android:paddingRight="150dp"
+            android:text="满载"
+            android:textColor="@drawable/color_radiobutton"
+            android:textSize="22sp"/>
+    </RadioGroup>
+
+</RelativeLayout>

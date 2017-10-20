@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#171717"
+              android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="本次里程"
+            android:textColor="@color/colorDriving_ScoreText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/mileage_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="本次油耗"
+            android:textColor="@color/colorDriving_ScoreText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/oilConsumption_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="平均油耗"
+            android:textColor="@color/colorDriving_ScoreText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/averageOilConsumption_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="平均分数"
+            android:textColor="@color/colorDriving_ScoreText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/averagescore_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="当前转速（X轴）"
+            android:textColor="@color/colorDriving_ScoreText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/speedX_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="当前扭矩百分比（Y轴）"
+            android:textColor="@color/colorDriving_ScoreText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/percent_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="当前分数"
+            android:textColor="@color/colorDriving_ScoreText"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:id="@+id/fraction_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text=""
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+    </LinearLayout>
+
+</LinearLayout>

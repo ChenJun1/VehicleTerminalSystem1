@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/top_ll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/bg_driving_score"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="序号"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3.5"
+            android:gravity="center"
+            android:text="起止时间"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="里程数"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="油耗"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="平均油耗"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="平均分数"
+            android:textColor="@color/colorVehicleParametersText2"
+            android:textSize="@dimen/fram_driving_text_size18"/>
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_below="@+id/top_ll"
+        android:layout_above="@+id/below_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/below_ll"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_alignParentBottom="true"
+        android:background="@mipmap/bg_driving_score"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="总时长"
+                android:textColor="@color/colorDriving_ScoreText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/allTime_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="总里程"
+                android:textColor="@color/colorDriving_ScoreText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/allMile_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="总油耗"
+                android:textColor="@color/colorDriving_ScoreText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/allOilConsumption_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text="平均油耗"
+                android:textColor="@color/colorDriving_ScoreText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/averageOilConsumption2_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:text="平均分数"
+                android:textColor="@color/colorDriving_ScoreText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/averagescore_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
+                android:maxLines="2"
+                android:text=""
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

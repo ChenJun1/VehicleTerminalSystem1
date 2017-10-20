@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@+id/LinearLayout01"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#0f0f0f"
+              android:orientation="vertical">
+
+    <include layout="@layout/layout_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/lineChart"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:visibility="visible"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="停车日期 时间:"
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/endTime_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="经度："
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/longitude_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="纬度："
+                android:textColor="@color/colorVehicleParametersText"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <TextView
+                android:id="@+id/latitude_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="高度："
+                    android:textColor="@color/colorVehicleParametersText"
+                    android:textSize="@dimen/fram_driving_text_size18"/>
+
+                <TextView
+                    android:id="@+id/altitude_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorVehicleParametersText2"
+                    android:textSize="@dimen/fram_driving_text_size18"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="50dp"
+                android:text="时间(S)"
+                android:textColor="@color/colorVehicleParametersText2"
+                android:textSize="@dimen/fram_driving_text_size18"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

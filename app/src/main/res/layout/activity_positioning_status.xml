@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f0f0f"
+    android:orientation="vertical"
+    tools:context="com.cvnavi.app.ui.activity.PositioningStatusActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="UTC时间" />
+
+                <TextView
+                    android:id="@+id/number_plate_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="日期" />
+
+                <TextView
+                    android:id="@+id/car_parameter_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="定位状态" />
+
+                <TextView
+                    android:id="@+id/sleep_mode_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="纬度" />
+
+                <TextView
+                    android:id="@+id/driving_time_limit_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="纬度方向" />
+
+                <TextView
+                    android:id="@+id/break_time_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout3"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="经度" />
+
+                <TextView
+                    android:id="@+id/IC_authority"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="1dp"
+            android:layout_weight="1"
+            android:background="@drawable/bg_layout"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="1dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout1"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="经度方向" />
+
+                <TextView
+                    android:id="@+id/car_VIN_number"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="视野内卫星数" />
+
+                <TextView
+                    android:id="@+id/coefficient_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="高度" />
+
+                <TextView
+                    android:id="@+id/alarm_speed_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#1e1e1e"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="地面速度" />
+
+                <TextView
+                    android:id="@+id/timeout_driving_time_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="#191919"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="地面导航" />
+
+                <TextView
+                    android:id="@+id/warning_difference_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_layout3"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/more_text"
+                    android:text="模式指示" />
+
+                <TextView
+                    android:id="@+id/mode_indication_view"
+                    style="@style/more_text"
+                    android:text="--"
+                    android:textColor="#c7e01d" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
